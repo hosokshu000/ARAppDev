@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SplashScreenController : MonoBehaviour
 {
-    public Image fadePanel; // Assign this in the Inspector
-    public Image splashImage; // Assign this in the Inspector
+    public Image fadePanel; // Panel for fading
+    public Image splashImage; // Image to display then fade
     public float fadeDuration = 1f;
     public string nextSceneName = "Main Menu"; // Name of the home scene
 
