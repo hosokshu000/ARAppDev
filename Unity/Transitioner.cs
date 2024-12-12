@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Transitioner : MonoBehaviour
 {
-    public Image fadePanel; // Assign this in the Inspector
+    public Image fadePanel; // Panel for fading
     public float fadeDuration = 3f;
     void Start()
     {
