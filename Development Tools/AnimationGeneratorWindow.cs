@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class AnimationGeneratorWindow : EditorWindow
 {
-    private string spritePath = "Path/To/Sprites"; // Set your default path here
+    private string spritePath = "Path/To/Sprites"; // Set parent frame folder path
     private string animationName = "NewAnimation"; // Default animation name
     private int frameRate = 60;
 
